@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Futura normal';
+  src: url('../../fonts/futura\ medium\ bt.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Futura bold';
+  src: url('../../fonts/Futura\ Bold\ font.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Futura light';
+  src: url('../../fonts/futura\ light\ bt.ttf') format('truetype');
+  font-weight: light
+}
+
+.second-section {
+  padding: 50px 100px; 
+  background-color: #58585A;
+}
+
+.second-section h1 {
+  color: #FEC240;
+  font-size: 50px;
+  font-family: 'Futura normal';
+  font-weight: normal;
+  /* margin-bottom: -5px; */
+  /* margin-top: 20px; */
+}
+
+.second-section h2 {
+  color: #FEC240;
+  font-size: 35px;
+  font-family: 'Futura normal';
+  font-weight: normal;
+  /* margin-bottom: -5px; */
+  margin-top: 20px;
+}
+
+
+.second-section p {
+  color: white;
+  font-family: 'Futura light';
+  font-size: 25px;
+  font-weight: light;
+  line-height: 45px;
+}
+
+.second-section button {
+  font-family: 'Futura normal';
+  font-size: 30px;
+  font-weight: normal;
+  background-color: black;
+  color: #FEC240;
+  border: none;
+  padding: 18px 26px;
+  transition: all 0.2s ease-in-out;
+}
+
+.second-section button:hover {
+  background-color: white;
+  font-size: 30px;
+  color: black;
+  /* padding: 19px 27px; */
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+.item-1 {
+  flex: 2;
+  margin-right: 50px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 30px 40px;
+  flex: 1;
+  background-color: #FEC240;
+  max-width: 40%;
+} 
+
+.box h2{
+  color: black;
+}
+
+.box p {
+  color: black;
+}
