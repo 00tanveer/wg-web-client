@@ -16,63 +16,84 @@
   font-weight: light
 }
 
-.second-section {
+.fourth-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   padding: 50px 150px; 
   background-color: #58585A;
 }
 
-.second-section h1 {
+.fourth-section h1 {
   color: #FEC240;
   font-size: 50px;
   font-family: 'Futura normal';
   font-weight: normal;
+  margin: 100px;
+  line-height: 70px;
   /* margin-bottom: -5px; */
   /* margin-top: 20px; */
 }
 
-.second-section h2 {
-  color: #FEC240;
-  font-size: 35px;
-  font-family: 'Futura normal';
-  font-weight: normal;
+.fourth-section p {
+  color: white;
+  font-size: 25px;
+  font-family: 'Futura light';
+  font-weight: light;
   /* margin-bottom: -5px; */
   margin-top: 20px;
 }
 
 
-.second-section p {
-  color: white;
-  font-family: 'Futura light';
-  font-size: 25px;
-  font-weight: light;
-  line-height: 45px;
-}
 
-.second-section button {
+
+.fourth-section button {
   font-family: 'Futura normal';
   font-size: 30px;
   font-weight: normal;
-  background-color: black;
-  color: #FEC240;
+  background-color: #FEC240;
+  color: black;
   border: none;
   border-radius: 10px;
   padding: 18px 26px;
   transition: all 0.2s ease-in-out;
 }
 
-.second-section button:hover {
-  background-color: white;
+.fourth-section button:hover {
+  background-color: black;
   font-size: 30px;
-  color: black;
+  color: #FEC240;
   /* padding: 19px 27px; */
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
-.flex-container {
+.container {
   display: flex;
-  flex-direction: row;
-  /* justify-content: space-between;  */
+  flex-direction: column;
+  align-items: stretch;
+  /* width: 500px; */
+}
+
+input {
+  min-width: 300px;
+  
+  border-radius: 5px;
+  border-width: 0;
+  padding: 10px;
+  font-family: 'Futura light';
+  font-size: 25px;
+  margin: 10px 0;
+}
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    width: 500px;
+  }
+  input {
+    margin-right: 20px;
+  }
 }
 
 .item-1 {
@@ -84,7 +105,6 @@
 .box {
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: center;
   justify-content: center;
   padding: 30px 40px;
@@ -94,12 +114,8 @@
   height: 550px;
 } 
 
-.box h2 {
+.box h2{
   color: black;
-}
-
-.box .arrow {
-  width: 15px;
 }
 
 .box p {

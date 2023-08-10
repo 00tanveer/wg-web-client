@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Futura light';
+  src: url('../../fonts/futura\ light\ bt.ttf') format('truetype');
+  font-weight: light
+}
+
+.footer {
+  text-align: center;
+  padding: 2px 150px; 
+  background-color: black;
+}
+
+.footer p {
+  color: #FEC240;
+  font-size: 25px;
+  font-family: 'Futura light';
+  font-weight: light;
+  /* margin-bottom: -5px; */
+  /* margin-top: 20px; */
+}
