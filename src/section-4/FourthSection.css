@@ -36,6 +36,11 @@
   /* margin-top: 20px; */
 }
 
+.fourth-section h2 {
+  width: 500px;
+  color: #FEC240; 
+  text-align: center
+}
 .fourth-section p {
   color: white;
   font-size: 25px;
