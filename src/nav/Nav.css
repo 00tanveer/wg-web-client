@@ -4,3 +4,11 @@
   margin-left: -40px;
   padding: 0 150px;
 }
+@media (max-width: 575.98px) {
+  .nav-logo {
+    height: 70px;
+    width: auto;
+    margin-left: 16px;
+    padding: 0;
+  }
+}

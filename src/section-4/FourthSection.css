@@ -1,19 +1,19 @@
 @font-face {
-  font-family: 'Futura normal';
-  src: url('../../fonts/futura\ medium\ bt.ttf') format('truetype');
+  font-family: "Futura normal";
+  src: url("../../fonts/futura\ medium\ bt.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Futura bold';
-  src: url('../../fonts/Futura\ Bold\ font.ttf') format('truetype');
+  font-family: "Futura bold";
+  src: url("../../fonts/Futura\ Bold\ font.ttf") format("truetype");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Futura light';
-  src: url('../../fonts/futura\ light\ bt.ttf') format('truetype');
-  font-weight: light
+  font-family: "Futura light";
+  src: url("../../fonts/futura\ light\ bt.ttf") format("truetype");
+  font-weight: light;
 }
 
 .fourth-section {
@@ -21,14 +21,14 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 50px 150px; 
-  background-color: #58585A;
+  padding: 50px 150px;
+  background-color: #58585a;
 }
 
 .fourth-section h1 {
-  color: #FEC240;
+  color: #fec240;
   font-size: 50px;
-  font-family: 'Futura normal';
+  font-family: "Futura normal";
   font-weight: normal;
   margin: 100px;
   line-height: 70px;
@@ -38,26 +38,23 @@
 
 .fourth-section h2 {
   width: 500px;
-  color: #FEC240; 
-  text-align: center
+  color: #fec240;
+  text-align: center;
 }
 .fourth-section p {
   color: white;
   font-size: 25px;
-  font-family: 'Futura light';
+  font-family: "Futura light";
   font-weight: light;
   /* margin-bottom: -5px; */
   margin-top: 20px;
 }
 
-
-
-
 .fourth-section button {
-  font-family: 'Futura normal';
+  font-family: "Futura normal";
   font-size: 30px;
   font-weight: normal;
-  background-color: #FEC240;
+  background-color: #fec240;
   color: black;
   border: none;
   border-radius: 10px;
@@ -68,7 +65,7 @@
 .fourth-section button:hover {
   background-color: black;
   font-size: 30px;
-  color: #FEC240;
+  color: #fec240;
   /* padding: 19px 27px; */
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -83,11 +80,11 @@
 
 input {
   min-width: 300px;
-  
+
   border-radius: 5px;
   border-width: 0;
   padding: 10px;
-  font-family: 'Futura light';
+  font-family: "Futura light";
   font-size: 25px;
   margin: 10px 0;
 }
@@ -114,15 +111,42 @@ input {
   justify-content: center;
   padding: 30px 40px;
   /* flex: 1; */
-  background-color: #FEC240;
+  background-color: #fec240;
   max-width: 350px;
   height: 550px;
-} 
+}
 
-.box h2{
+.box h2 {
   color: black;
 }
 
 .box p {
   color: black;
+}
+@media (max-width: 575.98px) {
+  .fourth-section {
+    padding: 50px 16px;
+  }
+  .flex-container {
+    flex-direction: column-reverse;
+  }
+  .fourth-section h1 {
+    margin: 0;
+    color: #fec240;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .fourth-section p {
+    color: #fec240;
+    text-align: center;
+    font-family: Futura Md BT;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 70px;
+  }
 }

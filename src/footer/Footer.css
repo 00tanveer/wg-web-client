@@ -1,20 +1,34 @@
 @font-face {
-  font-family: 'Futura light';
-  src: url('../../fonts/futura\ light\ bt.ttf') format('truetype');
-  font-weight: light
+  font-family: "Futura light";
+  src: url("../../fonts/futura\ light\ bt.ttf") format("truetype");
+  font-weight: light;
 }
 
 .footer {
   text-align: center;
-  padding: 2px 150px; 
+  padding: 2px 150px;
   background-color: black;
 }
 
 .footer p {
-  color: #FEC240;
+  color: #fec240;
   font-size: 25px;
-  font-family: 'Futura light';
+  font-family: "Futura light";
   font-weight: light;
   /* margin-bottom: -5px; */
   /* margin-top: 20px; */
+}
+@media (max-width: 575.98px) {
+  .footer {
+    padding: 30px 16px;
+  }
+  .footer p {
+    color: #fec240;
+    text-align: center;
+    font-family: Futura Md BT;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 }
