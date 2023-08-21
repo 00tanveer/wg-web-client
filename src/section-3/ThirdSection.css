@@ -1,33 +1,33 @@
 @font-face {
   font-family: "Futura normal";
-  src: url("../../fonts/futura\ medium\ bt.ttf") format("truetype");
+  src        : url("../../fonts/futura\ medium\ bt.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Futura bold";
-  src: url("../../fonts/Futura\ Bold\ font.ttf") format("truetype");
+  src        : url("../../fonts/Futura\ Bold\ font.ttf") format("truetype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Futura light";
-  src: url("../../fonts/futura\ light\ bt.ttf") format("truetype");
+  src        : url("../../fonts/futura\ light\ bt.ttf") format("truetype");
   font-weight: light;
 }
 
 .third-section {
-  padding: 50px 150px;
+  padding         : 50px 150px;
   background-color: white;
 }
 
 .second-section h1 {
-  color: #fec240;
-  font-size: 50px;
-  font-family: "Futura normal";
-  font-weight: normal;
+  color           : #fec240;
+  font-size       : 50px;
+  font-family     : "Futura normal";
+  font-weight     : normal;
   /* margin-bottom: -5px; */
-  /* margin-top: 20px; */
+  /* margin-top   : 20px; */
 }
 
 /* .third-section h2 {
@@ -39,48 +39,48 @@
 } */
 
 .third-section p {
-  color: black;
+  color      : black;
   font-family: "Futura light";
-  font-size: 25px;
+  font-size  : 25px;
   font-weight: light;
   line-height: 45px;
 }
 
 .third-section button {
-  font-family: "Futura normal";
-  font-size: 30px;
-  font-weight: normal;
+  font-family     : "Futura normal";
+  font-size       : 30px;
+  font-weight     : normal;
   background-color: white;
-  color: black;
-  border: none;
-  border-radius: 10px;
-  padding: 18px 26px;
-  transition: all 0.2s ease-in-out;
+  color           : black;
+  border          : none;
+  border-radius   : 10px;
+  padding         : 18px 26px;
+  transition      : all 0.2s ease-in-out;
 }
 
 .third-section button:hover {
   background-color: #fec240;
-  font-size: 30px;
-  color: black;
-  /* padding: 19px 27px; */
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  font-size       : 30px;
+  color           : black;
+  /* padding      : 19px 27px; */
+  cursor          : pointer;
+  transition      : all 0.2s ease-in-out;
 }
 
 .flex-container {
-  display: flex;
-  flex-direction: row;
+  display        : flex;
+  flex-direction : row;
   justify-content: space-between;
 }
 
 .third-section .item-1 {
-  display: flex;
+  display       : flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  flex: 1;
-  margin-right: 50px;
-  max-width: 400px;
+  align-items   : center;
+  text-align    : center;
+  flex          : 1;
+  margin-right  : 50px;
+  max-width     : 400px;
 }
 
 .third-section img {
@@ -89,12 +89,12 @@
 
 .third-section .item-2 {
   background-image: url("abstract-image.png");
-  background-size: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 40%;
-  height: 700px;
+  background-size : auto;
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+  max-width       : 40%;
+  height          : 700px;
 }
 
 .box h2 {
@@ -104,48 +104,45 @@
 .box p {
   color: black;
 }
+
 @media (max-width: 575.98px) {
   .third-section {
     padding: 45px 16px;
   }
+
   .flex-container {
     flex-direction: column-reverse;
   }
+
   .third-section .item-1 {
     width: 100%;
   }
+
   .third-section .item-2 {
     background-position: center center;
-    background-size: cover;
-    padding: 140px 40px;
-    background-size: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    margin-bottom: 35px;
+    background-size    : cover;
+    padding            : 140px 40px;
+    background-size    : auto;
+    display            : flex;
+    align-items        : center;
+    justify-content    : center;
+    max-width          : 100%;
+    margin-bottom      : 35px;
 
   }
+
   .third-section p {
-    color: #000;
-    text-align: center;
-    font-size: 22px;
-    font-style: normal;
+    color      : #000;
+    text-align : center;
+    font-size  : 22px;
+    font-style : normal;
     font-weight: 400;
-    line-height: 37px; /* 168.182% */
+    line-height: 37px;
+    /* 168.182% */
   }
 
   .third-section button {
-    color: #000;
-    text-align: center;
-    font-family: Futura Md BT;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border: none;
-    border-radius: 10px;
-    padding: 15px 45px;
-    transition: all 0.2s ease-in-out;
+    font-size    : 25px;
+    padding: 15px 20px;
   }
 }

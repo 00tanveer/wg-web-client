@@ -1,119 +1,122 @@
 @font-face {
   font-family: "Futura normal";
-  src: url("../../fonts/futura\ medium\ bt.ttf") format("truetype");
+  src        : url("../../fonts/futura\ medium\ bt.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Futura bold";
-  src: url("../../fonts/Futura\ Bold\ font.ttf") format("truetype");
+  src        : url("../../fonts/Futura\ Bold\ font.ttf") format("truetype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Futura light";
-  src: url("../../fonts/futura\ light\ bt.ttf") format("truetype");
+  src        : url("../../fonts/futura\ light\ bt.ttf") format("truetype");
   font-weight: light;
 }
 
 .fourth-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 50px 150px;
+  display         : flex;
+  flex-direction  : column;
+  align-items     : center;
+  text-align      : center;
+  padding         : 50px 150px;
   background-color: #58585a;
 }
 
 .fourth-section h1 {
-  color: #fec240;
-  font-size: 50px;
-  font-family: "Futura normal";
-  font-weight: normal;
-  margin: 100px;
-  line-height: 70px;
+  color           : #fec240;
+  font-size       : 50px;
+  font-family     : "Futura normal";
+  font-weight     : normal;
+  margin          : 100px;
+  line-height     : 70px;
   /* margin-bottom: -5px; */
-  /* margin-top: 20px; */
+  /* margin-top   : 20px; */
 }
 
 .fourth-section h2 {
-  width: 500px;
-  color: #fec240;
+  width     : 500px;
+  color     : #fec240;
   text-align: center;
 }
+
 .fourth-section p {
-  color: white;
-  font-size: 25px;
-  font-family: "Futura light";
-  font-weight: light;
+  color           : white;
+  font-size       : 25px;
+  font-family     : "Futura light";
+  font-weight     : light;
   /* margin-bottom: -5px; */
-  margin-top: 20px;
+  margin-top      : 20px;
 }
 
 .fourth-section button {
-  font-family: "Futura normal";
-  font-size: 30px;
-  font-weight: normal;
+  font-family     : "Futura normal";
+  font-size       : 30px;
+  font-weight     : normal;
   background-color: #fec240;
-  color: black;
-  border: none;
-  border-radius: 10px;
-  padding: 18px 26px;
-  transition: all 0.2s ease-in-out;
+  color           : black;
+  border          : none;
+  border-radius   : 10px;
+  padding         : 18px 26px;
+  transition      : all 0.2s ease-in-out;
 }
 
 .fourth-section button:hover {
   background-color: black;
-  font-size: 30px;
-  color: #fec240;
-  /* padding: 19px 27px; */
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  font-size       : 30px;
+  color           : #fec240;
+  /* padding      : 19px 27px; */
+  cursor          : pointer;
+  transition      : all 0.2s ease-in-out;
 }
 
 .container {
-  display: flex;
+  display       : flex;
   flex-direction: column;
-  align-items: stretch;
-  /* width: 500px; */
+  align-items   : stretch;
+  /* width      : 500px; */
 }
 
 input {
   min-width: 300px;
 
   border-radius: 5px;
-  border-width: 0;
-  padding: 10px;
-  font-family: "Futura light";
-  font-size: 25px;
-  margin: 10px 0;
+  border-width : 0;
+  padding      : 10px;
+  font-family  : "Futura light";
+  font-size    : 25px;
+  margin       : 10px 0;
 }
+
 @media (min-width: 600px) {
   .container {
     flex-direction: row;
-    width: 500px;
+    width         : 500px;
   }
+
   input {
     margin-right: 20px;
   }
 }
 
 .item-1 {
-  flex: 2;
+  flex        : 2;
   margin-right: 50px;
-  max-width: 500px;
+  max-width   : 500px;
 }
 
 .box {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  padding: 30px 40px;
-  /* flex: 1; */
+  display         : flex;
+  flex-direction  : column;
+  text-align      : center;
+  justify-content : center;
+  padding         : 30px 40px;
+  /* flex         : 1; */
   background-color: #fec240;
-  max-width: 350px;
-  height: 550px;
+  max-width       : 350px;
+  height          : 550px;
 }
 
 .box h2 {
@@ -123,30 +126,31 @@ input {
 .box p {
   color: black;
 }
+
 @media (max-width: 575.98px) {
   .fourth-section {
     padding: 50px 16px;
   }
+
   .flex-container {
     flex-direction: column-reverse;
   }
+
   .fourth-section h1 {
-    margin: 0;
-    color: #fec240;
-    text-align: center;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
+    margin     : 0;
+    text-align : center;
+    font-size  : 40px;
     line-height: normal;
   }
+
   .fourth-section p {
-    color: #fec240;
-    text-align: center;
+    color      : #fec240;
+    text-align : center;
     font-family: Futura Md BT;
-    font-size: 30px;
-    font-style: normal;
+    font-size  : 30px;
+    font-style : normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 70px;
+    margin-top : 70px;
   }
 }

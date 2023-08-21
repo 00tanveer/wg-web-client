@@ -1,68 +1,69 @@
 @font-face {
   font-family: "Futura normal";
-  src: url("../../fonts/futura\ medium\ bt.ttf") format("truetype");
+  src        : url("../../fonts/futura\ medium\ bt.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Futura bold";
-  src: url("../../fonts/Futura\ Bold\ font.ttf") format("truetype");
+  src        : url("../../fonts/Futura\ Bold\ font.ttf") format("truetype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Futura light";
-  src: url("../../fonts/futura\ light\ bt.ttf") format("truetype");
+  src        : url("../../fonts/futura\ light\ bt.ttf") format("truetype");
   font-weight: light;
 }
 
 .landing-section {
   padding: 50px 150px;
 }
+
 h1 {
-  font-size: 80px;
-  font-family: "Futura normal";
-  font-weight: normal;
+  font-size    : 80px;
+  font-family  : "Futura normal";
+  font-weight  : normal;
   margin-bottom: -5px;
-  margin-top: 20px;
+  margin-top   : 20px;
 }
 
 p {
   font-family: "Futura light";
-  font-size: 25px;
+  font-size  : 25px;
   font-weight: light;
   line-height: 45px;
 }
 
 button {
-  font-family: "Futura normal";
-  font-size: 30px;
-  font-weight: normal;
+  font-family     : "Futura normal";
+  font-size       : 30px;
+  font-weight     : normal;
   background-color: #fec240;
-  color: black;
-  border: none;
-  border-radius: 10px;
-  padding: 18px 26px;
-  transition: all 0.2s ease-in-out;
+  color           : black;
+  border          : none;
+  border-radius   : 10px;
+  padding         : 18px 26px;
+  transition      : all 0.2s ease-in-out;
 }
 
 button:hover {
   background-color: black;
-  font-size: 30px;
-  color: #fec240;
-  /* padding: 19px 27px; */
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  font-size       : 30px;
+  color           : #fec240;
+  /* padding      : 19px 27px; */
+  cursor          : pointer;
+  transition      : all 0.2s ease-in-out;
 }
 
 .flex-container {
-  display: flex;
-  flex-direction: row;
+  display        : flex;
+  flex-direction : row;
   justify-content: space-between;
 }
 
 .item-1 {
-  flex: 2;
+  flex        : 2;
   margin-right: 50px;
 }
 
@@ -71,7 +72,7 @@ button:hover {
 }
 
 img {
-  max-width: 480px;
+  max-width : 480px;
   max-height: 600px;
 }
 
@@ -79,41 +80,36 @@ img {
   .landing-section {
     padding: 25px 16px 50px 16px;
   }
+
   .landing-section img {
     width: 100%;
   }
+
   .landing-section h1 {
-    color: #000;
-    font-size: 40px;
-    font-family: Futura Md BT;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-size : 40px;
     margin-top: 35px;
   }
+
   .landing-section p {
-    color: #000;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 37px;
-    margin-top: 20px;
+    color        : #000;
+    font-size    : 22px;
+    font-style   : normal;
+    font-weight  : 400;
+    line-height  : 37px;
+    margin-top   : 20px;
     margin-bottom: 40px;
   }
-  .landing-section .btn{
+
+  .landing-section .btn {
     display: flex;
-    margin: auto;
+    margin : auto;
   }
-  .landing-section button {
-    padding: 15px 45px;
-    color: #000;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: auto;
+
+  button {
+    font-size  : 25px;
   }
-  .landing-section .item-1{
+
+  .landing-section .item-1 {
     width: 100%;
   }
 }
