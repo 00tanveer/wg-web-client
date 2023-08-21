@@ -18,7 +18,7 @@ function ThirdSection() {
             <p>“Our savings lose half of its value every 5 years. It could be even worse. I was a banker for 5 years.
               I know how people are misguided on one of the most important aspects of our lives - money.
               I’d love to talk to you and help you understand where you need to work to improve your finances.”
-              <br /><br /><strong style={{ fontFamily: 'Futura Md BT' }}>Muhammad Refayet Chowdhury</strong><br /><strong style={{ fontFamily: 'Futura Md BT' }}>Co-founder and CEO</strong> </p>
+              <br /><br /><strong style={{ fontFamily: 'Futura bold' }}>Muhammad Refayet Chowdhury</strong><br /><strong style={{ fontFamily: 'Futura bold' }}>Co-founder and CEO</strong> </p>
             <break />
           </div>
           <div class="item-2">

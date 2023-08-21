@@ -19,11 +19,6 @@ function Modal({ onClose }) {
     accessToken: 'CFPAT-Fv8bCvvESWMdNndVTO3yP-73aO_RfUfHEl5GoDxrKj8'
   })
 
-  // client
-  // .getEntry('5PeGS2SoZGSa4GuiQsigQu')
-  // .then((entry) => console.log(entry))
-  // .catch((err) => console.log(err))
-
   const downloadFile = async () => {
     // call API 
     client.getSpace('noepe1fl3llv')

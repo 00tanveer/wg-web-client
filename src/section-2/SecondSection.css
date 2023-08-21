@@ -116,9 +116,9 @@
     color: #000;
     text-align: center;
     font-size: 30px;
-    font-family: Futura Md BT;
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Futura normal';
+    /* font-style: normal; */
+    /* font-weight: 400; */
     line-height: normal;
     margin: 0;
   }
@@ -132,7 +132,7 @@
   .second-section .desc {
     color: #000;
     text-align: center;
-    font-family: Futura Lt BT;
+    font-family: 'Futura light';
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -144,22 +144,23 @@
     margin-top: 35px;
     color: #fec240;
     font-size: 40px;
+    font-family: 'Futura normal';
     font-style: normal;
     font-weight: 400;
     line-height: normal;
   }
   .second-section .description {
     color: #fff;
-    font-family: Futura Lt BT;
+    font-family: 'Futura light';
     font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
+    /* font-style: normal; */
+    /* font-weight: 400; */
     line-height: 37px; 
     margin: 20px 0;
   }
   .second-section .item-1 h2 {
     color: #fec240;
-    font-family: Futura Md BT;
+    font-family: 'Futura normal';
     font-size: 30px;
     font-style: normal;
     font-weight: 400;

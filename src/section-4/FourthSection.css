@@ -94,6 +94,7 @@ input {
   .container {
     flex-direction: row;
     width         : 500px;
+    font-family: 'Futura normal';
   }
 
   input {
@@ -144,9 +145,8 @@ input {
   }
 
   .fourth-section p {
-    color      : #fec240;
     text-align : center;
-    font-family: Futura Md BT;
+    font-family: 'Futura light';
     font-size  : 30px;
     font-style : normal;
     font-weight: 400;
